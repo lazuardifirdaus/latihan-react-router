@@ -9,6 +9,7 @@ const router = createBrowserRouter([
   {
     path: "/", // url path
     element: <Home />, // <Component />
+    errorElement: <div>The URL does not exist. Please check it again.</div>, // error jika salah menulis url
   },
   {
     path: "about",
